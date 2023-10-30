@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Imagen del juego */
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Título del juego */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Géneros del juego */
+.genres {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Calificación del juego */
+.rating {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #FF5722;
+}
+
+/* Fecha de lanzamiento del juego */
+.released {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Botón de volver al inicio */
+.button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

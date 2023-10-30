@@ -1,0 +1,41 @@
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 200px;
+  height: auto;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.cardGenres {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  text-align: left;
+  margin-left: 10px;
+}

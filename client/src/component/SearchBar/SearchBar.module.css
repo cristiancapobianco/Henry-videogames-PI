@@ -1,0 +1,46 @@
+/* SearchBar.module.css */
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    padding: 20px;
+    justify-content: flex-end;
+
+    position: fixed;
+    width: 100%;
+    top: 0px ;
+    height: 45px;
+}
+
+.input {
+    flex: 1;
+    /* Mantiene el campo de entrada flexible */
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    border-radius: 7px;
+    max-width: 200px;
+    margin-right: 5px;
+}
+
+.container2 {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.button {
+    background-color: #ffffff;
+    margin-right: 40px;
+}
+
+.image {
+    position: fixed;
+    width: 17%;
+    margin-right: 0;
+    left: 35px;
+    top: 4px
+}
